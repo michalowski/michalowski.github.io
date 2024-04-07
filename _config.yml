@@ -18,21 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Hello. I'm Marek Michalowski.
+author: Marek Michalowski
+# email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The personal web site of Marek Michalowski: Intrinsic, BeatBots, Keepon, Dirty Robot, Robot Film Festival.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://marek.michalow.ski" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+linkedin_username: mmichalowski
+github_username:  michalowski
+mastodon:
+- username: michalowski
+  instance: mastodon.social
+social_links:
+  - { platform: github,         user_url: "https://github.com/michalowski" }
+  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user= y7S4e2gAAAAJ" }
+  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/mmichalowski" }
+  - { platform: mastodon,       user_url: "https://mastodon.social/@michalowski" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
