@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The personal web site of Marek Michalowski: Intrinsic, BeatBots, Keepon, Dirty Robot, Robot Film Festival.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://marek.michalow.ski" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: G-2Q3WLEBJXN
 
 # Build settings
 theme: minima
