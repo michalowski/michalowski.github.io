@@ -1,11 +1,11 @@
 ---
 layout: home
 ---
-I'm a product manager at &nbsp;[![Intrinsic](logos/intrinsic.svg){: height="15" style="vertical-align: -.025em"}](http://intrinsic.ai), which I co-founded at Alphabet's &nbsp;[![X](logos/x.svg){: height="17" style="vertical-align: 0em"}&nbsp; moonshot factory](http://x.company).
+I'm a product manager at &nbsp;[![Intrinsic](logos/intrinsic.svg){: height="14" style="vertical-align: -.025em"}](http://intrinsic.ai), which I co-founded at &nbsp;[![Alphabet](logos/alphabet.svg){: height="17" style="vertical-align: -0.205em"}'s &nbsp;![X](logos/x.svg){: height="15" style="vertical-align: 0em"}&nbsp; moonshot factory](http://x.company).
 Our mission is to democratize access to industrial robotics.
 
-Prior to that, I started &nbsp;[![BeatBots](logos/beatbots.svg){: height="18" style="vertical-align: -0.15em"}](http://beatbots.net)&nbsp; with [Hideki Kozima](http://www.ei.tohoku.ac.jp/xkozima/index-eng.html), designer of the &nbsp;[![Keepon](logos/keepon.svg){: height="17" style="vertical-align: -0.15em"}](http://beatbots.net/keepon-pro)&nbsp; robot.
-We created a family of robotic toys & characters, including [Zingy](http://beatbots.net/zingy), a mascot for EDF Energy.
+Prior to that, I started &nbsp;[![BeatBots](logos/beatbots.svg){: height="17" style="vertical-align: -0.15em"}](http://beatbots.net)&nbsp; with [Hideki Kozima](http://www.ei.tohoku.ac.jp/xkozima/index-eng.html), designer of the &nbsp;[![Keepon](logos/keepon.svg){: height="17" style="vertical-align: -0.175em"}](http://beatbots.net/keepon-pro)&nbsp; robot.
+We created a family of robotic toys & characters, including [Zingy](http://beatbots.net/zingy), a mascot for &nbsp;[![EDF](logos/edf.svg){: height="14" style="vertical-align: -0.03em"}](https://edfenergy.com).
 Other ongoing projects of mine include &nbsp;[![Dirty Robot](logos/dirtyrobot.svg){: height="13" style="vertical-align: 0em"}](http://dirtyrobotbrewworks.com) Brew Works and the &nbsp;[![Robot Film Festival](logos/robotfilmfestival.svg){: height="15" style="vertical-align: 0em"}](http://robot.film).
 
 A few things I enjoy:
@@ -16,8 +16,8 @@ I practice karate with [月影流](http://facebook.com/tkrsf).
 • Over the years I've shifted from motorcycles to bicycles (with a fondness for [![Rivendell](logos/rivendell.svg){: height="17" style="vertical-align: -.15em" }](http://rivbike.com)'s), and I love skiing (increasingly in the backcountry) & backpacking.
 
 I was born in Poland, grew up in New York, spent some years in Japan, and live in San Francisco.
-I studied computer science, psychology, & robotics at [![Yale](logos/yale.svg){: height="14" style="vertical-align: 0em"}](http://yale.edu) (BA'02, MS'03) & [![Carnegie Mellon](logos/carnegiemellon.svg){: height="18" style="vertical-align: -0.25em"}](http://www.ri.cmu.edu) (PhD'10).
+I studied computer science, psychology, & robotics at [![Yale](logos/yale.svg){: height="15" style="vertical-align: -0.015em"}](http://yale.edu) (BA'02, MS'03) & [![Carnegie Mellon](logos/carnegiemellon.svg){: height="19" style="vertical-align: -0.25em"}](http://www.ri.cmu.edu) (PhD'10).
 My thesis on [rhythmic human-robot social interaction](https://www.proquest.com/openview/4891551287a3aa725779cef8f8f9be15) was sponsored by the [NSF](http://nsf.gov) & Japan's [NICT](https://www.nict.go.jp/en).
 
-My publications can be found at [Google Scholar](https://scholar.google.com/citations?user=y7S4e2gAAAAJ), and I occasionally post to &nbsp;[![LinkedIn](logos/linkedin.svg){: height="18" style="vertical-align: -0.15em"}](http://linkedin.com/in/mmichalowski), [![Medium](logos/medium.svg){: height="12" style="vertical-align: 0em"}](http://medium.com/@mmichalowski), or &nbsp;[![Mastodon](logos/mastodon.svg){: height="20" style="vertical-align: -0.4em"}](http://mastodon.social/@michalowski).
+My publications can be found at &nbsp;[![Google Scholar](logos/googlescholar.svg){: height="18.5" style="vertical-align: -0.215em"}](https://scholar.google.com/citations?user=y7S4e2gAAAAJ), and I occasionally post to &nbsp;[![LinkedIn](logos/linkedin.svg){: height="19" style="vertical-align: -0.17em"}](http://linkedin.com/in/mmichalowski), [![Medium](logos/medium.svg){: height="13" style="vertical-align: -0.015em"}](http://medium.com/@mmichalowski), or &nbsp;[![Mastodon](logos/mastodon.svg){: height="21" style="vertical-align: -0.42em"}](http://mastodon.social/@michalowski).
 Please feel free to get in touch.
