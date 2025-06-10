@@ -101,18 +101,12 @@ footer:
       icon: "fab fa-fw fa-google-scholar"
       url: "http://scholar.google.com/citations?user=y7S4e2gAAAAJ"
 
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path
+
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -120,6 +114,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 category_archive:
   type: liquid

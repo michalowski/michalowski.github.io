@@ -18,4 +18,4 @@ I practice karate with [月影流](http://facebook.com/tkrsf).
 
 I was born in Poland, grew up in New York, spent some years in Japan, and live in San Francisco.
 I studied computer science, psychology, & robotics at [![Yale](../assets/logos/yale.svg){: width="40" style="vertical-align: -0.025em"}](http://yale.edu) (BA'02, MS'03) & [![Carnegie Mellon](../assets/logos/carnegiemellon.svg){: width="140" style="vertical-align: -0.28em"}](http://www.ri.cmu.edu) (PhD'10).
-My thesis on [rhythmic human-robot social interaction](https://www.proquest.com/openview/4891551287a3aa725779cef8f8f9be15) was sponsored by the [NSF](http://nsf.gov) & Japan's [NICT](https://www.nict.go.jp/en).
+My [thesis](https://www.proquest.com/openview/4891551287a3aa725779cef8f8f9be15) on rhythmic human-robot social interaction was sponsored by the [NSF](http://nsf.gov) & Japan's [NICT](https://www.nict.go.jp/en).

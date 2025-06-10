@@ -7,26 +7,71 @@ search: false
 
 $serif              : "EB Garamond", Garamond, serif;
 
-a {
-    text-decoration: none;
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.site-title {
-    font-family: $serif;
-    font-size: larger;
-    font-weight: 400;
+.page__inner-wrap p {
+  a, a:visited {
+    text-decoration: none;
+    color: #0077FF;
   }
+}
+
+.masthead__menu-item, h1, h2, .archive__item-title {
+  font-family: $serif;
+  font-weight: normal;
+}
+
+.archive__item a {
+  text-decoration: none;
+}
+
+.site-title {
+  font-family: $serif;
+  font-size: larger;
+  font-weight: 400;
+}
 
 body, .sidebar .author__name, .sidebar p {
-    font-family: $serif;
-    font-weight: 400;
+  font-family: $serif;
+  font-weight: 400;
 }
 
 .sidebar li {
-    text-transform: uppercase;
-    font-size: small;
-    font-weight: 400;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 400;
+}
+
+.page {
+  padding-inline-end: 100px;
+}
+
+.responsive-video-container {
+  margin-right: 10%;
+  padding-bottom: unset;
+  height: fit-content;
+  iframe,
+  object,
+  embed {
+      width: fit-content;
+      height: fit-content;
+  }
+}
+
+.grid__item {
+  .archive__item-teaser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include breakpoint($small) {
+      max-height: 10em;
+    }
+
+    @include breakpoint($medium) {
+      max-height: 5em;
+    }
+  }
 }
