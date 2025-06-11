@@ -1,6 +1,6 @@
 ---
 title: "Robot Film Festival"
-order: 9
+order: 10
 excerpt: "Co-production of an annual celebration of robots in film."
 header:
   image: https://images.squarespace-cdn.com/content/v1/51c0e918e4b0d7362842bcf0/1373147272476-7BU9VLG2ZVN2YAC0FI5M/IMG_0020.jpg?format=2500w
@@ -11,4 +11,4 @@ I co-founded the [Robot Film Festival](http://robot.film) with Heather Knight an
 
 {% include video id="103302471" provider="vimeo" %}
 
-Please see the [Robot Film Festival web site](http://robot.film) for more information, event retrospectives, and film archives. 
+Please visit the [Robot Film Festival](http://robot.film) site for more information, event retrospectives, and film archives. 

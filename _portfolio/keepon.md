@@ -1,6 +1,6 @@
 ---
 title: "Keepon"
-order: 2
+order: 3
 excerpt: "Commercialization of an interactive robot for kids."
 header:
   image: http://beatbots.net/assets/images/BeatBots.KeeponPro.wide.jpg
@@ -17,3 +17,5 @@ The [Keepon](http://beatbots.net/keepon-pro) robot was designed by [Dr. Hideki K
 {% include video id="nPdP1jBfxzo" provider="youtube" %}
 
 {% include feature_row id="mykeepon" type="left" %}
+
+Please visit the [Keepon Pro](http://beatbots.net/keepon-pro) and [My Keepon](http://beatbots.net/my-keepon) sites for more information.

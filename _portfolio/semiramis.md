@@ -18,4 +18,4 @@ description:
 
 {% include feature_row id="description" type="right" %}
 
-Please see the [project page](http://gramaziokohler.arch.ethz.ch/web/d/projekte/409.html) for more information.
+Please visit the [Semiramis](http://gramaziokohler.arch.ethz.ch/web/d/projekte/409.html) site for more information.

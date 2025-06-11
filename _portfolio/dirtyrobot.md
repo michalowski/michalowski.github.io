@@ -1,6 +1,6 @@
 ---
 title: "Dirty Robot Brew Works"
-order: 6
+order: 7
 excerpt: "A robotic nano-brewery with a mobile 20-gallon brewing rig."
 header:
   image: 
@@ -17,4 +17,4 @@ We used industrial robots in the [Bot & Dolly](http://linkedin.com/company/bot-&
 
 {% include video id="P4wzOA7NB_M" provider="youtube" %}
 
-Please visit the [Dirty Robot web site](http://dirtyro.bot) for more information.
+Please visit the [Dirty Robot](http://dirtyro.bot) site for more information.

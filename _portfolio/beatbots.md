@@ -1,6 +1,6 @@
 ---
 title: "BeatBots"
-order: 4
+order: 6
 excerpt: "Robotic character design and mechatronics."
 header:
   image: 
@@ -41,4 +41,4 @@ The BeatBots team included a number of talented technologists and designers, inc
 
 {% include feature_row id="triptych" type="right" %}
 
-Please visit the [BeatBots web site](http://beatbots.net) for more information.
+Please visit the [BeatBots](http://beatbots.net) site for more information.

@@ -7,7 +7,7 @@ Our mission is to democratize access to industrial robotics.
 
 Prior to that, I started &nbsp;[![BeatBots](../assets/logos/beatbots.svg){: width="110" style="vertical-align: -0.15em"}](http://beatbots.net)&nbsp; with [Hideki Kozima](http://www.ei.tohoku.ac.jp/xkozima/index-eng.html), designer of the &nbsp;[![Keepon](../assets/logos/keepon.svg){: width="85" style="vertical-align: -0.175em"}](http://beatbots.net/keepon-pro)&nbsp; robot.
 We created a family of robotic toys & characters, including [Zingy](http://beatbots.net/zingy), a mascot for &nbsp;[![EDF](../assets/logos/edf.svg){: width="60" style="vertical-align: -0.03em"}](https://edfenergy.com).
-Other ongoing projects of mine include &nbsp;[![Dirty Robot](../assets/logos/dirtyrobot.svg){: width="135" style="vertical-align: 0em"}](http://dirtyro.bot) Brew Works and the &nbsp;[![Robot Film Festival](../assets/logos/robotfilmfestival.svg){: width="120" style="vertical-align: 0em"}](http://robot.film).
+Other ongoing projects of mine include &nbsp;[![Dirty Robot](../assets/logos/dirtyrobot.svg){: width="135" style="vertical-align: 0em"}](http://dirtyro.bot) Brew Works and the &nbsp;[![Robot Film Festival](../assets/logos/robotfilmfestival.svg){: width="120" style="vertical-align: 0em"}](http://robot.film). Please see my [Portfolio](/portfolio) for more about what I've gotten up to.
 
 A few things I enjoy:
 I practice karate with [月影流](http://facebook.com/tkrsf).

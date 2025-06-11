@@ -1,6 +1,6 @@
 ---
 title: "The New Artist"
-order: 10
+order: 11
 excerpt: "Art by robots, for robots: two machines interacting in a process of creation and appreciation."
 header:
   image: 
@@ -20,4 +20,4 @@ The New Artist has been exhibited at Finland’s [Kerava Art Museum](http://www.
 
 {% include video id="22120955" provider="vimeo" %}
 
-Please see [the project site](http://axel.straschnoy.com/the-new-artist) for more information.
+Please visit Axel Straschnoy's [New Artist](http://axel.straschnoy.com/the-new-artist) site for more information.

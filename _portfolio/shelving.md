@@ -1,6 +1,6 @@
 ---
 title: "Modular shelving"
-order: 7
+order: 9
 excerpt: "A modular shelf design in brass, steel, and walnut."
 header:
   image: /assets/images/michalowski.shelving.wide.jpg
