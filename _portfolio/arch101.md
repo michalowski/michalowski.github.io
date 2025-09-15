@@ -76,6 +76,6 @@ We were tasked with designing a 20'-cube-sized structure and building a 1:24-sca
 
 ## Sukkah
 
-We were assigned a project to develop a structure inspired by the symbolism and constraints of a [sukkah](https://en.wikipedia.org/wiki/Sukkah). My design (and 1:12-scale model) was one of four winners of a class-internal competition (in the spirit of [Sukkah City](https://en.wikipedia.org/wiki/Sukkah_City) or [Sukkahville](https://www.kehilla.ca/sukkahville)). It is a dome contructed from tent poles that converge on an oculus that directs occupants toward Polaris, the north star, and uses bands of natural fabric to precisely shade the heads of dining occupants from the arc of the sun at the sukkah's location during the week of the Sukkot harvest festival.
+We were assigned a project to develop a structure inspired by the symbolism and constraints of a [sukkah](https://en.wikipedia.org/wiki/Sukkah). My design (and 1:12-scale model) was one of four winners of a class-internal competition (in the spirit of [Sukkah City](https://en.wikipedia.org/wiki/Sukkah_City) or [Sukkahville](https://www.kehilla.ca/sukkahville)). It is a dome constructed from tent poles that converge on an oculus that directs occupants toward Polaris, the north star, and uses bands of natural fabric to precisely shade the heads of dining occupants from the arc of the sun at the sukkah's location during the week of the Sukkot harvest festival.
 
 {% include gallery id="gallery-sukkah" %}

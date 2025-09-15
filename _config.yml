@@ -43,9 +43,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name                   : "Marek Michalowski"
+  name                   : "Marek Michalowski, PhD"
   avatar                 : "/assets/images/michalowski.square.jpg"
-  bio                    : "Co-founder of [Intrinsic](http://intrinsic.ai), [BeatBots](http://beatbots.net), [Dirty Robot](http://dirtyro.bot), & the [Robot Film Festival](http://robot.film)."
+  bio                    : "Roboticist, architecture student, and co-founder of [Intrinsic](http://intrinsic.ai), [BeatBots](http://beatbots.net), [Dirty Robot](http://dirtyro.bot), & the [Robot Film Festival](http://robot.film)."
   location               : "San Francisco"
   email                  : 
   links:
@@ -104,7 +104,7 @@ footer:
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:path
+    permalink: /projects/:path
 
 defaults:
   # _pages
