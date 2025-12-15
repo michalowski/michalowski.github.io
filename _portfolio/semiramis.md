@@ -1,6 +1,6 @@
 ---
 title: "Semiramis"
-order: 5
+order: 9
 excerpt: "Program management for a technology contribution to an ETH Zurich architectural installation."
 header:
   image: 

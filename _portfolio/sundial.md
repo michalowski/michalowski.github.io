@@ -1,6 +1,6 @@
 ---
 title: "Project Sundial"
-order: 2
+order: 10
 excerpt: "A digital sundial fabricated by a mobile industrial robot."
 header:
   image: /assets/images/michalowski.sundial.wide.jpg

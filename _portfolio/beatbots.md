@@ -1,6 +1,6 @@
 ---
 title: "BeatBots"
-order: 6
+order: 5
 excerpt: "Robotic character design and mechatronics."
 header:
   image: 

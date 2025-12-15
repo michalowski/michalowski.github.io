@@ -1,6 +1,6 @@
 ---
 title: "Keepon"
-order: 3
+order: 7
 excerpt: "Commercialization of an interactive robot for kids."
 header:
   image: http://beatbots.net/assets/images/BeatBots.KeeponPro.wide.jpg

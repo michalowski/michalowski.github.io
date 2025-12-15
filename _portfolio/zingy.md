@@ -1,6 +1,6 @@
 ---
 title: "Zingy"
-order: 4
+order: 6
 excerpt: "A robotic mascot for EDF Energy."
 header:
   image: http://beatbots.net/assets/images/BeatBots.Zingy.FeelBetter.wide.png

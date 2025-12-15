@@ -1,6 +1,6 @@
 ---
 title: "Flowstate"
-order: 1
+order: 11
 excerpt: "Product management for Intrinsic's industrial robotics programming tool."
 header:
   image: 
@@ -13,6 +13,6 @@ Intrinsic is an AI and robotics company working to unlock the creative and econo
 
 ![Flowstate](https://cdn.prod.website-files.com/65ef6590d3b13c549fc95d9b/66302ea8458ef70beb822bee_2.-Flowstate_Full-width-Media_2.jpg)
 
-After graduating, Intrinsic launched [Flowstate](http://intrinsic.ai/flowstate), a web-based tool for developers to build their own robotic applications. I have been a Technical Program Manager and am currently a Product Manager on Flowstate, responsible for the framework by which *assets* (software modules, digital twins, etc) can be created or onboarded to the platform and reused across solutions. [I have also led a collaboration with ETH Zurich and Gramazio Kohler Research.](/portfolio/semiramis)
+After graduating, Intrinsic launched [Flowstate](http://intrinsic.ai/flowstate), a web-based tool for developers to build their own robotic applications. I have been a Technical Program Manager and am currently a Product Manager on Flowstate, responsible for the framework by which *assets* (software modules, digital twins, etc) can be created or onboarded to the platform and reused across solutions. [I have also led a collaboration with ETH Zurich and Gramazio Kohler Research.](/projects/semiramis)
 
 Please visit the [Intrinsic](http://intrinsic.ai) site for more information.

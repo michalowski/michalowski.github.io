@@ -1,6 +1,6 @@
 ---
 title: "Dirty Robot Brew Works"
-order: 7
+order: 4
 excerpt: "A robotic nano-brewery with a mobile 20-gallon brewing rig."
 header:
   image: 

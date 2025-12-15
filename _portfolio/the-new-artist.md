@@ -1,6 +1,6 @@
 ---
 title: "The New Artist"
-order: 11
+order: 1
 excerpt: "Art by robots, for robots: two machines interacting in a process of creation and appreciation."
 header:
   image: 
