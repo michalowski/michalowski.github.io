@@ -45,7 +45,7 @@ plugins:
 author:
   name                   : "Marek Michalowski, PhD"
   avatar                 : "/assets/images/michalowski.square.jpg"
-  bio                    : "Roboticist, architecture student, and co-founder of [Intrinsic](http://intrinsic.ai), [BeatBots](http://beatbots.net), [Dirty Robot](http://dirtyro.bot), & the [Robot Film Festival](http://robot.film)."
+  bio                    : "Roboticist & architecture student. Formerly of [Intrinsic](http://intrinsic.ai), [BeatBots](http://beatbots.net), [Dirty Robot](http://dirtyro.bot), & the [Robot Film Festival](http://robot.film)."
   location               : "San Francisco"
   email                  : 
   links:
@@ -64,6 +64,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "http://instagram.com/mmichalowski"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "http://youtube.com/@mmichalowski"
     - label: "Bluesky"
       icon: "fab fa-fw fa-bluesky"
       url: "http://bsky.app/profile/michalow.ski"
@@ -88,6 +91,9 @@ footer:
     - label: ""
       icon: "fab fa-fw fa-instagram"
       url: "http://instagram.com/mmichalowski"
+    - label: ""
+      icon: "fab fa-fw fa-youtube"
+      url: "http://youtube.com/@mmichalowski"
     - label: ""
       icon: "fab fa-fw fa-bluesky"
       url: "http://bsky.app/profile/michalow.ski"
