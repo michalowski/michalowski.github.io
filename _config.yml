@@ -34,6 +34,8 @@ analytics:
 include:
   - _pages
 
+theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -49,12 +51,12 @@ author:
   location               : "San Francisco"
   email                  : 
   links:
-    # - label: "Email"
-      # icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://marek.michalow.ski"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@michalow.ski"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "http://linkedin.com/in/mmichalowski"
@@ -82,6 +84,9 @@ author:
 
 footer:
   links:
+    - label: ""
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@michalow.ski"
     - label: ""
       icon: "fab fa-fw fa-linkedin"
       url: "http://linkedin.com/in/mmichalowski"
