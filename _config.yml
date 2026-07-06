@@ -34,8 +34,6 @@ analytics:
 include:
   - _pages
 
-theme: minimal-mistakes-jekyll
-
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
