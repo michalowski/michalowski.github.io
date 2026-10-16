@@ -2,3 +2,11 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .DS_Store
+
+# Personal and machine-local files: never commit.
+# (.env holds secrets; CLAUDE.local.md and .claude/settings.local.json are
+# per-user Claude Code notes/settings; .DS_Store is macOS folder metadata.)
+.env
+.env.*
+!.env.example
+CLAUDE.local.md
