@@ -49,3 +49,26 @@ and standalone curves and hatches are hidden behind solids like everything else.
 
 The trade-off is speed.
 `Marek2D` does much more checking than `Make2D`, so it is slower, noticeably so on large scenes.
+
+## Using it
+
+Select the objects to draw, make the view you want active (parallel or perspective), and run `Marek2D`.
+Change any options, then press Enter.
+The drawing is placed flat at the world origin, on layers under `Marek2D` (or a name of your choice, see `LayerName`), each with sublayers matching your model's layers.
+The command line shows an estimate and the progress, and Esc cancels without leaving anything behind.
+A toolbar button is available from the Toolbars panel (hidden by default).
+
+Options, remembered between runs:
+
+- **CreateHiddenLines** (No): also draw hidden edges, dashed, on `Hidden`.
+- **ShowTangents** (Yes): draw the edges between smoothly joined faces.
+- **CreateClippingPlaneIntersections** (Yes): draw section lines where active clipping planes cut solids, on `Clipping`.
+- **CreateObjectIntersections** (Yes): draw the lines where solids pass through each other. Unlike with `Make2D`, you don't need to add these intersections to your model: they are generated temporarily, for the drawing only.
+- **ThroughGlass** (Yes): draw what is seen through transparent materials on `Through_Glass`. An object counts as glass if its material has transparency or a name containing "glass", "clear", "window", "transparent" or "translucent".
+- **IncludeHatches** (Yes): include hatch patterns in the drawing, occluded when behind solids like any other line. Unlike with `Make2D`, you don't need to explode hatches in your model: they are exploded temporarily, for the drawing only.
+- **Shadows** (No): with the Sun panel's sun on, add the areas in shadow: grouped hatches on `Shadows::Hatch`, with their boundary curves on `Shadows::Boundaries` (turned off).
+- **BlockClipping** (ByInstance): how a clipping plane's include/exclude lists apply to blocks. `ByInstance` matches the block instance and its layer, as `Make2D` does; `ByMember` matches each block member's own layer, as the viewport does.
+- **LayerName** (Marek2D): the top-level layer for the drawing.
+
+Small details need a fine enough model tolerance; `Marek2D` warns when the tolerance is coarse for the geometry.
+Large models take a while; the estimate is refined as it runs.
