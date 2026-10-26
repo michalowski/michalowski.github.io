@@ -58,24 +58,24 @@ The trade-off is speed.
 ## Using it
 
 Select the objects to draw, make the view you want active (parallel or perspective), and run `Marek2D`.
-Change any options, then press Enter.
+Change any options, then press `Enter`.
 The drawing is placed flat on the world XY plane, on layers under `Marek2D` (or a name of your choice, see `LayerName`), each with sublayers matching your model's layers.
 It lands on top of the previous drawing, even if you've moved that one (see `RegisterWithPrevious`), and is left selected, so you can move it off at once.
-The command line shows an estimate and the progress, and Esc cancels without leaving anything behind.
+The command line shows an estimate and the progress, and `Esc` cancels without leaving anything behind.
 A toolbar button is available from the Toolbars panel (hidden by default).
 
 Options, remembered between runs:
 
-- **CreateHiddenLines** (No): also draw hidden edges, dashed, on `Hidden`.
-- **ShowTangents** (No): draw the edges between smoothly joined faces.
-- **CreateClippingPlaneIntersections** (Yes): draw section lines where active clipping planes cut solids, on `Clipping`, and poché the cut faces on `Poche hatch`: the merged outlines on `Boundaries`, the hatching as lines on `Exploded`, and as a grouped hatch on `Unexploded` (turned off).
-- **CreateObjectIntersections** (Yes): draw the lines where solids pass through each other. Unlike with `Make2D`, you don't need to add these intersections to your model: they are generated temporarily, for the drawing only.
-- **ThroughGlass** (Yes): draw what is seen through transparent materials on `Through_Glass`. An object counts as glass if its material has transparency or a name containing "glass", "clear", "window", "transparent" or "translucent".
-- **IncludeHatches** (Yes): include hatch patterns in the drawing, occluded when behind solids like any other line. Unlike with `Make2D`, you don't need to explode hatches in your model: they are exploded temporarily, for the drawing only.
-- **Shadows** (WholeGeometry): with the Sun panel's sun on, add the areas in shadow on `Shadow hatch`: the hatching as lines on `Exploded`, as a grouped hatch on `Unexploded`, and the areas' outlines on `Boundaries` (both turned off). `WholeGeometry` shades with the whole model, as if uncut; `CutGeometry` with the model as cut; `Off` draws no shadows. Cut faces are never shaded. With the sun off, no shadows are drawn whatever this is set to.
-- **RegisterWithPrevious** (Yes): place the drawing where the previous `Marek2D` drawing is, following it if you've moved it, so a redrawn view lines up with the last one. `No` puts its lower-left corner at the world origin.
-- **BlockClipping** (ByInstance): how a clipping plane's include/exclude lists apply to blocks. `ByInstance` matches the block instance and its layer, as `Make2D` does; `ByMember` matches each block member's own layer, as the viewport does.
-- **LayerName** (Marek2D): the top-level layer for the drawing.
+- **`CreateHiddenLines`** (`No`): also draw hidden edges, dashed, on `Hidden`.
+- **`ShowTangents`** (`No`): draw the edges between smoothly joined faces.
+- **`CreateClippingPlaneIntersections`** (`Yes`): draw section lines where active clipping planes cut solids, on `Clipping`, and poché the cut faces on `Poche hatch`: the merged outlines on `Boundaries`, the hatching as lines on `Exploded`, and as a grouped hatch on `Unexploded` (turned off).
+- **`CreateObjectIntersections`** (`Yes`): draw the lines where solids pass through each other. Unlike with `Make2D`, you don't need to add these intersections to your model: they are generated temporarily, for the drawing only.
+- **`ThroughGlass`** (`Yes`): draw what is seen through transparent materials on `Through_Glass`. An object counts as glass if its material has transparency or a name containing "glass", "clear", "window", "transparent" or "translucent".
+- **`IncludeHatches`** (`Yes`): include hatch patterns in the drawing, occluded when behind solids like any other line. Unlike with `Make2D`, you don't need to explode hatches in your model: they are exploded temporarily, for the drawing only.
+- **`Shadows`** (`WholeGeometry`): with the Sun panel's sun on, add the areas in shadow on `Shadow hatch`: the hatching as lines on `Exploded`, as a grouped hatch on `Unexploded`, and the areas' outlines on `Boundaries` (both turned off). `WholeGeometry` shades with the whole model, as if uncut; `CutGeometry` with the model as cut; `Off` draws no shadows. Cut faces are never shaded. With the sun off, no shadows are drawn whatever this is set to.
+- **`RegisterWithPrevious`** (`Yes`): place the drawing where the previous `Marek2D` drawing is, following it if you've moved it, so a redrawn view lines up with the last one. `No` puts its lower-left corner at the world origin.
+- **`BlockClipping`** (`ByInstance`): how a clipping plane's include/exclude lists apply to blocks. `ByInstance` matches the block instance and its layer, as `Make2D` does; `ByMember` matches each block member's own layer, as the viewport does.
+- **`LayerName`** (`Marek2D`): the top-level layer for the drawing.
 
 Small details need a fine enough model tolerance; `Marek2D` warns when the tolerance is coarse for the geometry.
 Large models take a while; the estimate is refined as it runs.
