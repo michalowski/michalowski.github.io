@@ -37,7 +37,7 @@ These computed intersections are ephemeral for the purposes of the drawing, and 
 ## Shadows
 
 With the sun set up in the model, `Marek2D` adds closed curves around every visible area in shadow, whether cast or self-shadowed.
-These areas are hatched for you, as plain lines ready for print or export, and also as a grouped hatch (on a layer that starts off) so the pattern can be changed with one click.
+These areas are hatched for you, as plain lines ready for print or export, and also as a grouped hatch on its own layer, so the pattern can be changed with one click. Turn off whichever of the two you don't need.
 The hatch lines run in the direction of the sunlight as the view shows it, so the long edges of cast shadows are lined by unbroken hatch lines.
 In a section, the shadows come from the whole model before the cut by default, so a roof the section removes still shades the room below, or from the model as cut.
 
@@ -47,7 +47,8 @@ Also:
 the output layers mirror the model's own layers, in a fixed order (top to bottom: sections, poché, visible, through glass, hidden, shadows), which carries over to an Illustrator export;
 clipping planes are applied the way the viewport shows them, including hidden planes, caps to hide solid interiors, and include/exclude lists;
 cut faces get poché hatching, with the sections merged where they touch;
-all hatches use scale 1 and the world origin as their base point, so neighbouring hatches line up;
+all hatches use the world origin as their base point, so neighbouring hatches line up, and the same line spacing in any unit system (Hatch1 at scale 1 in feet: a line every 1.5 in, or 38 mm);
+meshes are drawn by their outlines and creases, not by every triangle, and cast and receive shadows like solids;
 lines from layers named "Entourage" come out thinner;
 hatches are exploded for the purposes of the drawing, but don't need to be exploded in your model;
 and standalone curves and hatches are hidden behind solids like everything else.
@@ -75,6 +76,7 @@ Options, remembered between runs:
 - **`Shadows`** (`WholeGeometry`): with the Sun panel's sun on, add the areas in shadow on `Shadow hatch`: the hatching as lines on `Exploded`, as a grouped hatch on `Unexploded`, and the areas' outlines on `Boundaries` (both turned off). `WholeGeometry` shades with the whole model, as if uncut; `CutGeometry` with the model as cut; `Off` draws no shadows. Cut faces are never shaded. With the sun off, no shadows are drawn whatever this is set to.
 - **`RegisterWithPrevious`** (`Yes`): place the drawing where the previous `Marek2D` drawing is, following it if you've moved it, so a redrawn view lines up with the last one. `No` puts its lower-left corner at the world origin.
 - **`BlockClipping`** (`ByInstance`): how a clipping plane's include/exclude lists apply to blocks. `ByInstance` matches the block instance and its layer, as `Make2D` does; `ByMember` matches each block member's own layer, as the viewport does.
+- **`MeshCreaseAngle`** (`30`): on a mesh, an edge between faces that meet more sharply than this angle (in degrees) is drawn as a line. A smooth mesh comes out as its outline, a faceted one with its facets.
 - **`LayerName`** (`Marek2D`): the top-level layer for the drawing.
 
 Small details need a fine enough model tolerance; `Marek2D` warns when the tolerance is coarse for the geometry.
