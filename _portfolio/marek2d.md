@@ -18,9 +18,9 @@ It's free to use (search for `Marek2D` in the Package Manager), but YMMV, and fe
 `Marek2D` sets out to make that cleanup unnecessary:
 
 - **Correct lines.** Every line should be drawn where it is seen, hidden where it is hidden, and split exactly where it passes out of view. `Marek2D` checks each line against the 3-D model itself rather than trusting a single pass of Rhino's hidden-line engine, and it is tested against independently computed ground truth on hundreds of randomized scenes.
-- **A drawing, not a starting point.** Sections with poché, objects seen through glass, shadows, the model's own hatches and text, and good first guesses for line weights and greyscale, so the result is close to ready for print or import to Illustrator.
+- **A complete drawing rather than a starting point.** Sections with poché, objects seen through glass, shadows, the model's own hatches and text, and good first guesses for line weights and greyscale, so the result is close to ready for print or import to Illustrator.
 - **Familiar.** It is used like `Make2D`: the same selection, the same kind of options with the same names where they mean the same thing, and the same layer conventions.
-- **Fast enough.** The extra checking does take time, but the aim is to stay within an order of magnitude of `Make2D`'s time, with a progress bar, a time estimate, and `Esc` cancellability throughout.
+- **Fast *enough*.** The extra checking does take time, but the aim is to stay within an order of magnitude of `Make2D`'s time, with a progress bar, a time estimate, and `Esc` cancellability throughout.
 
 In the comparisons below, black lines are visible, grey dashed lines are hidden, and solid grey lines are seen through glass.
 
@@ -164,37 +164,37 @@ Each option is remembered between runs; defaults are shown in brackets.
 
 - **`CreateHiddenLines`**: draw hidden lines.
   - `Yes`: hidden lines are drawn, dashed, on `Hidden`.
-  - [`No`]: only what is seen.
+  - `[No]`: only what is seen.
 - **`ShowTangents`**: edges between faces that meet smoothly (a fillet's edges).
   - `Yes`: drawn.
-  - [`No`]: left out.
+  - `[No]`: left out.
 - **`CreateClippingPlaneIntersections`**: the view's clipping planes.
-  - [`Yes`]: the model is cut as the view shows it, with section lines on `Clipping` and poché on `Poche hatch`.
+  - `[Yes]`: the model is cut as the view shows it, with section lines on `Clipping` and poché on `Poche hatch`.
   - `No`: clipping planes are ignored and the whole model is drawn.
 - **`CreateObjectIntersections`**: lines where solids pass through each other.
-  - [`Yes`]: drawn, on both objects' layers.
+  - `[Yes]`: drawn, on both objects' layers.
   - `No`: left out, as `Make2D` does.
 - **`ThroughGlass`**: what is seen through transparent objects.
-  - [`Yes`]: drawn on `Through_Glass` (and on `Hidden`).
+  - `[Yes]`: drawn on `Through_Glass` (and on `Hidden`).
   - `No`: glass hides what is behind it, as `Make2D` does.
 - **`IncludeHatches`**: hatches in the model.
-  - [`Yes`]: their pattern lines are drawn, hidden behind solids like any line.
+  - `[Yes]`: their pattern lines are drawn, hidden behind solids like any line.
   - `No`: left out, as `Make2D` does.
 - **`IncludeText`**: text in the model.
-  - [`Yes`]: drawn as the outlines of its letters, at the size shown, hidden behind solids like any line. Text set to face the view faces the drawing.
+  - `[Yes]`: drawn as the outlines of its letters, at the size shown, hidden behind solids like any line. Text set to face the view faces the drawing.
   - `No`: left out.
 - **`RegisterWithPrevious`**: where the drawing goes.
-  - [`Yes`]: where the previous `Marek2D` drawing is, following it if it has been moved.
+  - `[Yes]`: where the previous `Marek2D` drawing is, following it if it has been moved.
   - `No`: its lower-left corner at the world origin.
 - **`BlockClipping`**: how a clipping plane's include and exclude lists apply to blocks.
-  - [`ByInstance`]: by the block instance and its layer, as `Make2D` does.
+  - `[ByInstance]`: by the block instance and its layer, as `Make2D` does.
   - `ByMember`: by each object's own layer inside the block, as the viewport does.
 - **`Shadows`**: shadows from the Sun panel's sun (none while it is off).
-  - [`WholeGeometry`]: cast by the whole model, as if uncut, so a roof the section removes still shades the room.
+  - `[WholeGeometry]`: cast by the whole model, as if uncut, so a roof the section removes still shades the room.
   - `CutGeometry`: cast by the model as cut.
   - `Off`: no shadows.
-- **`MeshCreaseAngle`** [`30`]: in degrees. On a mesh, an edge between faces meeting more sharply than this is drawn.
-- **`LayerName`** [`Marek2D`]: the top-level layer for the drawing.
+- **`MeshCreaseAngle`** `[30]`: in degrees. On a mesh, an edge between faces meeting more sharply than this is drawn.
+- **`LayerName`** `[Marek2D]`: the top-level layer for the drawing.
 
 Small details need a model tolerance fine enough to resolve them: `Marek2D` warns when the tolerance is coarse for the geometry.
 
@@ -218,4 +218,4 @@ Layers that would be empty aren't made, and every layer starts turned on.
     - **`Exploded`**: the same hatches as plain lines. Grey, 0.0625mm.
     - **`Boundaries`**: the closed outline of each shaded area, to re-hatch as you like.
 
-Please email hello@michalow.ski with any questions or feedback.
+Please email [hello@michalow.ski](mailto:hello@michalow.ski) with any questions or feedback.
