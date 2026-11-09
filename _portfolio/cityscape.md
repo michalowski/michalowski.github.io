@@ -50,6 +50,7 @@ Bridges become decks at their measured heights, tunnels are left out, and rail l
 On a hill, the ground can be built as terraces instead: plates stepping up the slope at a fixed interval, as a contour model is cut from sheets of board.
 Give the step (the thickness of your sheets), or leave it empty and `Cityscape` picks one from the site's steepness: 0.25 m on gentle ground, coarser on steep.
 The streets are laid on the terrace tops, with their curbs as lines, and each building stands on its terrace at its true height.
+Each terrace's edge is a smooth curve, so `Make2D` draws it as one clean line rather than a row of facets.
 Terraces work anywhere: in the US from the LiDAR's ground, measured every metre or so; elsewhere from a worldwide satellite elevation model, one height every 30 m and accurate to a few metres, so outside the US the steps are at least 1 m and a narrow cut or embankment won't show.
 
 ![Twin Peaks, San Francisco, as terraced contours every 2.5 m, with Sutro Tower at the far left](/assets/images/cityscape/cityscape-twinpeaks.png)
@@ -65,7 +66,7 @@ The site is a circle around the location, or a north-up square twice the radius 
 `Cityscape` needs no keys or accounts: every source below is open and free to use.
 The command line says which sources each run used, and every building carries a note of where its shape came from (the user text `cityscape.source`: `parts3d`, `lidar`, `tags`, `grid` or `default`).
 
-- **Buildings, streets and rail: [OpenStreetMap](https://www.openstreetmap.org)**, through its Overpass servers. These are often busy, so if none has answered within 20 seconds, `Cityscape` fetches the same area from **[Overture Maps](https://overturemaps.org)** alongside, a monthly release of OpenStreetMap's buildings and streets with machine-learned footprints and heights where OpenStreetMap has none, and uses whichever arrives complete first.
+- **Buildings, streets and rail: [Overture Maps](https://overturemaps.org)**, a monthly release of [OpenStreetMap](https://www.openstreetmap.org)'s buildings and streets with machine-learned footprints and heights where OpenStreetMap has none. If it hasn't arrived within 20 seconds, `Cityscape` fetches the same area from OpenStreetMap's own Overpass servers alongside, and uses whichever arrives complete first.
 - **Heights, roofs and ground in the US: [USGS 3DEP](https://www.usgs.gov/3d-elevation-program) LiDAR.** Where several surveys cover a site, the newest is used, and a dense survey is read at a resolution that keeps the download to a minute or so.
 - **Ground anywhere else: the [Copernicus DEM GLO-30](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)**, the European Space Agency's worldwide elevation model, one height every 30 m. It measures the surface, roofs included, so where WSF3D shows large buildings they are taken out of it.
 - **Heights anywhere else: [WSF3D](https://geoservice.dlr.de/web/datasets/wsf_3d)**, the German Aerospace Center's World Settlement Footprint 3D: the average building height of every 90 m cell in the world's settlements. It is coarse (a tall building among low ones comes out low), so it is used only where the map has no height; reading a site takes a few seconds.
