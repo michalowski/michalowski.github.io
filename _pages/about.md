@@ -13,7 +13,7 @@ Please see my [Portfolio](/portfolio) for more on what I've gotten up to.
 
 A few things I enjoy:
 I practice karate with [月影流](http://facebook.com/tkrsf).
-• I'm a &nbsp;[![PADI](../assets/logos/padi.svg){: width="64" style="vertical-align: 0em" }](http://padi.com)&nbsp; advanced open water diver, a [![Divers Alert Network](../assets/logos/dan.svg){: width="66" style="vertical-align: 0em" }](http://dan.org) member, and a supporter of [![Sea Forager](../assets/logos/seaforager.svg){: width="95" style="vertical-align: -.5em" }](http://seaforager.com)'s sustainable seafood.
+• I'm a &nbsp;[![PADI](../assets/logos/padi.svg){: width="64" style="vertical-align: 0em" }](http://padi.com)&nbsp; Rescue Diver, a [![Divers Alert Network](../assets/logos/dan.svg){: width="66" style="vertical-align: 0em" }](http://dan.org) member, and a supporter of [![Sea Forager](../assets/logos/seaforager.svg){: width="95" style="vertical-align: -.5em" }](http://seaforager.com)'s sustainable seafood.
 • I have [American Sailing Association](http://americansailing.com) certifications 101 & 103.
 • I have a dormant Private Pilot license that I hope to revive some day.
 • I'm a member of [The Long Now Foundation](http://longnow.org){: style="font-variant: small-caps"}.

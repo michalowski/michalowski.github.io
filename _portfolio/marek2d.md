@@ -8,7 +8,7 @@ header:
 ---
 
 `Marek2D` is a plugin for Rhino 8 and later that turns a 3-D model into a 2-D line drawing of the current view, as an alternative to Rhino's built-in `Make2D` command.
-It's free to use (search for `Marek2D` in the Package Manager), but YMMV, and feedback is welcome.
+It's free to use (search for `Marek2D` in the Package Manager, or see the [food4Rhino](https://www.food4rhino.com/en/app/marek2d) page), but YMMV, and feedback is welcome.
 
 ![Marek2D's drawing of a room cut by a section, with shadows, glass and furniture](/assets/images/marek2d/marek2d-room.png)
 
@@ -113,7 +113,8 @@ Meshes cast and receive shadows like solids, and can be cut by clipping planes.
 ### Layers you can work with
 
 The drawing's layers mirror the model's, under one layer per kind of line, in a fixed order (sections on top, shadows at the bottom) that carries over to an Illustrator export.
-Lines from layers named "Entourage" come out thinner, so people, trees and furniture sit back from the architecture.
+Line widths follow the model's own: a layer with a print width sets its visible lines' width, with its sections twice as heavy and its hidden lines half as thick, and a layer set to No Print gives lines that are invisible and don't print (still there to select and move).
+Where no layer sets a width, lines from layers named "Entourage" come out thinner, so people, trees and furniture sit back from the architecture.
 A new drawing lands on top of the previous one, even after you've moved that one, so a redrawn view lines up with the last.
 
 ## How it works
@@ -203,6 +204,7 @@ Small details need a model tolerance fine enough to resolve them: `Marek2D` warn
 Everything goes under one top-level layer (`Marek2D`, or the `LayerName` you choose).
 Under each kind of line, sublayers reflect the model's own layer tree, so each object's lines end up on a layer named after its own; the tree below shows the top-level layers.
 Layers that would be empty aren't made, and every layer starts turned on.
+The widths below are for model layers whose print width is Default. A model layer with a print width of its own, or under a parent layer that has one, sets its `Visible` and `Through_Glass` lines' width; its `Clipping` lines are twice that and its `Hidden` lines half. A model layer set to No Print (or under one) gives lines that are invisible and don't print, and its cut faces get no poché.
 
 - **`Marek2D`**
   - **`Clipping`**: section lines, where clipping planes cut solids. Black, 0.5mm.
@@ -216,6 +218,6 @@ Layers that would be empty aren't made, and every layer starts turned on.
   - **`Shadow hatch`**: the areas in shadow, when the sun is on and `Shadows` is set.
     - **`Unexploded`**: one hatch per area, all grouped, with lines running along the sunlight.
     - **`Exploded`**: the same hatches as plain lines. Grey, 0.0625mm.
-    - **`Boundaries`**: the closed outline of each shaded area, to re-hatch as you like.
+    - **`Boundaries`**: the closed outline of each shaded area, to re-hatch as you like. Invisible and set not to print, so it doesn't outline the shade; select it by layer.
 
 Please email [hello@michalow.ski](mailto:hello@michalow.ski) with any questions or feedback.
